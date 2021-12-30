@@ -28,3 +28,12 @@ while( line.length < 8 ){
     line+="#";
     console.log(line);
 }
+
+
+// Things to learn from this program.
+
+// 1)  .length gives length of any parameter or varriable passed 
+
+
+let abc = "abc";
+console.log(abc.length);
