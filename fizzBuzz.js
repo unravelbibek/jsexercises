@@ -9,6 +9,7 @@ for numbers divisible by only one of those).
 
 */
 
+// Fizzbuzz using for loop
 
 for (var n = 1; n <= 100; n++) {
     var output = "";
@@ -18,3 +19,28 @@ for (var n = 1; n <= 100; n++) {
       output += "Buzz";
     console.log(output || n);
   }
+
+
+// fizzbuzz using Switch
+
+    let Fizz = false;
+    let Buzz = false;
+    for (let i = 1; i <= 100; i++) {
+        Fizz = i % 3 == 0;
+        Buzz = i % 5 == 0;
+        switch (true) {
+            case Fizz && Buzz: {
+                console.log('FizzBuzz');
+                break;
+            }
+            case Fizz: {
+                console.log('Fizz');
+                break;
+            }
+            case Buzz: {
+                console.log('Buzz');
+                break;
+            }
+            default: {
+                console.log(i);
+                break;}}}
