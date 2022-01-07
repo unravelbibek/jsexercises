@@ -18,3 +18,5 @@ function buyMilk(bottles) {
     buyMilk(bottles);
     var costPerMilk = 12;
     alert("your bill is RS" + bottles*costPerMilk);
+
+    /* lame question lame solution don't mind me */
